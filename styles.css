@@ -1,5 +1,24 @@
-.body {
-    background-color: white;
+:root {
+--background-color-dark: #2E2F42;
+--background-color-white: #fff;
+--logo-color-web: #4D5AE5;
+--background-color-team: #F4F4FD;
+--text-color-main: #434455;
+--text-color-headline: #2E2F42; 
+--link-color-active: #404BBF; 
+--button-color-filter: #F4F4FD;
+--text-color-light: #F4F4FD;
+--text-color-white: #fff;
+--button-filer-text: #4D5AE5;
+}
+
+body {
+color: var(--text-color-main);
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+line-height: 1.5;
+font-size: 16px;
+background-color: var(--background-color-white);
 }
 .header-section {
     font-family: "Raleway", "Roboto", sans-serif;
@@ -11,6 +30,7 @@
         font-size: 16px;
         line-height: 24px;
         color: #2E2F42;
+        text-decoration: none;
 }
 .address {
         font-family: 'Roboto';
@@ -20,6 +40,7 @@
             line-height: 24px;
             letter-spacing: 0.02em;
             color: #434455;
+            text-decoration: none;
 }
 .hero-section {
     background-color: #2E2F42;
@@ -116,15 +137,6 @@
 .footer {
     background: #2E2F42;
 }
-.footer .text {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        color: #F4F4FD;
-}
 .link {
     font-family: 'Raleway';
         font-style: normal;
@@ -134,6 +146,7 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+        text-decoration: none;
 }
 .studio-dark {
         font-family: 'Raleway';
@@ -154,4 +167,31 @@
                 letter-spacing: 0.03em;
                 text-transform: uppercase;
                 color: #F4F4FD;
+}
+.footer .text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+.staff-item {
+    background-color: #FFFFFF;
+}
+.header-list {
+    list-style: none;
+}
+.address-list {
+    list-style: none;
+}
+.what-are-we-doing-list {
+    list-style: none;
+}
+.images-list {
+    list-style: none;
+}
+.staff-list {
+    list-style: none;
 }
