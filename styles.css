@@ -198,15 +198,15 @@ background-color: var(--background-color-white);
     list-style: none;
 }
 .button-list .port-button {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.04em;
-        color: #4D5AE5;
-        background-color: #F4F4FD;
-        border-color: #E7E9FC;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    border-color: #E7E9FC;
 }
 .port-button:hover,
 .port-button:focus {
