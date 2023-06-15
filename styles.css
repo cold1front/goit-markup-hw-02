@@ -1,3 +1,93 @@
-body {
+.body {
+    background-color: white;
+}
+.header-section {
+    font-family: "Raleway", "Roboto", sans-serif;
+}
+.navigation {
+    font-family: "Roboto" ;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+}
+.address {
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.02em
+}
+.hero-section {
+    background-color: #2E2F42;
+}
+.hero-section .hero-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: white;
+}
+.button-hero {
+    background: #4D5AE5;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+}
+.button-hero:hover,
+.button-hero:focus {
+    background: #404BBF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+.what-are-we-doing-list .title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.what-are-we-doing-list .text {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+        width: 264px;
+        height: 72px;
+}
+.img-title {
+    position: absolute;
+        width: 323px;
+        height: 40px;
+        left: 559px;
+        top: 1016px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+.section-title {
     
 }
