@@ -89,5 +89,50 @@
         color: #2E2F42;
 }
 .section-title {
-    
+    position: absolute;
+        width: 162px;
+        height: 40px;
+        left: 639px;
+        top: 1668px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+.staff-list .title {
+    width: 134px;
+        height: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.staff-list .text {
+    width: 128px;
+        height: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.staff-section {
+    position: absolute;
+        width: 1440px;
+        height: 732px;
+        left: 0px;
+        top: 1548px;
+        background: #F4F4FD;
 }
