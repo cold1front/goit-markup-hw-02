@@ -63,6 +63,7 @@ background-color: var(--background-color-white);
             line-height: 24px;
             letter-spacing: 0.04em;
             color: #FFFFFF;
+            border: none;
 }
 .button-hero:hover,
 .button-hero:focus {
@@ -92,23 +93,16 @@ background-color: var(--background-color-white);
         font-weight: 700;
         font-size: 36px;
         line-height: 40px;
-        text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;
 }
 .section-title {
-    position: absolute;
-        width: 162px;
-        height: 40px;
-        left: 639px;
-        top: 1668px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: 40px;
-        text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;
@@ -194,4 +188,27 @@ background-color: var(--background-color-white);
 }
 .staff-list {
     list-style: none;
+}
+.button-list {
+    list-style: none;
+}
+.portfolio-list {
+    list-style: none;
+}
+.button-list .port-button {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        background-color: #F4F4FD;
+        border-color: #E7E9FC;
+}
+.port-button:hover,
+.port-button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    border: none;
 }
