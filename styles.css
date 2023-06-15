@@ -43,9 +43,10 @@ background-color: var(--background-color-white);
         font-style: normal;
         font-weight: 700;
         font-size: 56px;
-        line-height: 60px;
         letter-spacing: 0.02em;
         color: white;
+        line-height: 1.07
+
 }
 .button-hero {
     background: #4D5AE5;
@@ -127,17 +128,16 @@ background-color: var(--background-color-white);
 .footer {
     background: #2E2F42;
 }
-.link {
+.logo-link {
     font-family: 'Raleway' sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
-        text-decoration: none;
-        line-height: 1.17; 
+        text-decoration: none
 }
 .studio-dark {
         font-family: 'Raleway';
@@ -228,8 +228,40 @@ background-color: var(--background-color-white);
     color: var(--background-color-dark)
 }
 .text {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    color:var(--text-color-main)
+}
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--text-color-main)
+    color: var(--background-color-dark);
+}
+.link:hover,
+.link:focus {
+    color: var(--link-color-active);
+}
+.list .contacts {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+.list .contacts:hover,
+.list .contacts:focus {
+    color: var(--link-color-active);
+    text-decoration: none;
 }
