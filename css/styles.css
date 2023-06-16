@@ -137,7 +137,6 @@ background-color: var(--background-color-white);
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
-        text-decoration: none
 }
 .studio-dark {
         font-family: "Raleway", sans-serif;
@@ -226,7 +225,7 @@ text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
 }
-.link {
+.links {
     font-family: 'Roboto';
     font-style: normal;
     text-decoration: none;
@@ -239,6 +238,9 @@ color: #2e2f42;
 .link:hover,
 .link:focus {
     color: var(--link-color-active);
+}
+.link {
+    text-decoration: none;
 }
 .list .contacts {
 font-family: 'Roboto';
