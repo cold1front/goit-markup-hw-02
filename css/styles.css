@@ -65,24 +65,6 @@ background-color: var(--background-color-white);
 .button-hero:focus {
     background: #404BBF;
 }
-.what-are-we-doing .list .title {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
-}
-.what-are-we-doing .list .text {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
         .img-title {
         font-family: 'Roboto';
         font-style: normal;
