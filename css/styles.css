@@ -235,8 +235,8 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: var(--background-color-dark);
 }
-.link:hover,
-.link:focus {
+.list .links:hover,
+.list .links:focus {
     color: var(--link-color-active);
 }
 .link {
