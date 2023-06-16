@@ -197,7 +197,7 @@ background-color: var(--background-color-white);
 .portfolio-list {
     list-style: none;
 }
-.button-list .port-button {
+.list .port-button {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -207,6 +207,7 @@ background-color: var(--background-color-white);
     color: #4D5AE5;
     background-color: #F4F4FD;
     border-color: #E7E9FC;
+    cursor: pointer; 
 }
 .port-button:hover,
 .port-button:focus {
