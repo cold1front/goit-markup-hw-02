@@ -219,13 +219,11 @@ background-color: var(--background-color-white);
     text-align: center;
 }
 .img-title {
-    line-height: 1.11;
-    text-align: center;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
-    color: var(--background-color-dark)
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
+color: #2e2f42;
 }
 .link {
     font-family: 'Roboto';
