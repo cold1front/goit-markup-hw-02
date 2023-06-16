@@ -255,8 +255,6 @@ font-family: 'Roboto';
     text-decoration: none;
 }
 .title {
-    width: 264px;
-    height: 24px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -267,8 +265,6 @@ font-family: 'Roboto';
 }
 
 .text {
-    width: 264px;
-    height: 72px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
